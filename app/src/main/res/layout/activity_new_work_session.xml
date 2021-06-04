@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A2138"
+    android:orientation="vertical"
+    tools:context=".NewWorkSession">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="New Work Session"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="16dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lblWorkSessionName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Name:"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtWorkSessionName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:maxLength="15"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lblWorkTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Work Time:"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtWorkTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lblChillTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Chill Time:"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtChillTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lblRepetitions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Repetitions:"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtRepetitions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:text="Add"
+        app:backgroundTint="#1976D2"
+        app:cornerRadius="25dp" />
+</LinearLayout>
