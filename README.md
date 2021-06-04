@@ -1,2 +1,2 @@
 # POMelIPO
-Final Project for Human Computer Interaction - Escuela Superior de Informática - Ciudad Real
+Final Project for Human Computer Interaction II - Escuela Superior de Informática - Ciudad Real
